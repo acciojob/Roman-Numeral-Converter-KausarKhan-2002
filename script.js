@@ -18,10 +18,8 @@ function convertToRoman(num) {
 			num -= obj[key][1]
 		}
 		
-		if (num == 0) break
+		if (num == 0) return ans
 	}
-	
-	return ans
 }
 // You can test your code by running the above function and printing it to console by pressing the run button at the top. To run it with input 36, uncomment the following line
 
